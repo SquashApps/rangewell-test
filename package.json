@@ -1,0 +1,26 @@
+{
+  "name": "rangewell-ideas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.4.1",
+    "axios": "^0.18.0",
+    "json-server": "^0.12.1",
+    "lodash": "^4.17.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-mock": "^3.0.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start & npm run start-server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-server": "node server.js"
+  }
+}
